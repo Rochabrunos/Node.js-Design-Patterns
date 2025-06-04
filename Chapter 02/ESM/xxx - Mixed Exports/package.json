@@ -1,0 +1,17 @@
+{
+  "name": "mixed-exports",
+  "version": "1.0.0",
+  "description": "Mixed exports sections of the book Node.js Design Patters",
+  "main": "main.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ESM",
+    "Mixed",
+    "Exports"
+  ],
+  "author": "Bruno Souza Rocha",
+  "license": "MIT"
+}
