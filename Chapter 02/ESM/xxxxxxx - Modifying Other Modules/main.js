@@ -4,13 +4,13 @@
 // Because we not have access to readFile live-bind to modify it
 // Will throw an error, since fake-path does not exist
 import { readFile } from 'fs'
-// To fix this, we can use syncBuiltinESMExport to import the readFile function again
+// To fix this, we can use syncBuiltinESMExports to import the readFile function again
 import { syncBuiltinESMExports } from 'module'
 
 import { mockEnable, mockDisable } from './mock-read-file.js'
 
 mockEnable(Buffer.from('Hello World'))
-// After modify the readFile function, we can use it
+// After modify the readFile function, we must use syncBuiltinESMExports
 syncBuiltinESMExports()
 
 readFile('fake-path', (err, data) => {
@@ -22,3 +22,5 @@ readFile('fake-path', (err, data) => {
 })
 
 mockDisable()
+// After restore the readFile function, we need use again syncBuiltinESMExports
+syncBuiltinESMExports()
