@@ -1,0 +1,18 @@
+{
+  "name": "circular-dependency-resolution",
+  "version": "1.0.0",
+  "description": "Circular dependency resolution of Node.js ECMAScript Module - Chapter 02 from Node.js Design Patterns\" ",
+  "main": "main.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ESM",
+    "Circular",
+    "Dependency",
+    "Resolution"
+  ],
+  "author": "Bruno Souza Rocha",
+  "license": "MIT"
+}
