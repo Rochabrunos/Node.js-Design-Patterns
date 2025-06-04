@@ -1,0 +1,16 @@
+{
+  "name": "named-imports",
+  "version": "1.0.0",
+  "description": "Named Imports Chapter of Node.js Design Patterns",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ESM",
+    "Named",
+    "Imports"
+  ],
+  "author": "Bruno Souza Rocha",
+  "license": "ISC"
+}
