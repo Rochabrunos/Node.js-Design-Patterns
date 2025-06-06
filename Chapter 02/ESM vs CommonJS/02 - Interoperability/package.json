@@ -1,0 +1,16 @@
+{
+  "name": "interoperability",
+  "version": "1.0.0",
+  "description": "How to integrate CommonJS module inside ESModules",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ESM",
+    "CommonJS",
+    "Interoperability"
+  ],
+  "author": "Bruno Souza Rocha",
+  "license": "MIT"
+}
