@@ -1,0 +1,16 @@
+{
+  "name": "an-unpredictable-function",
+  "version": "1.0.0",
+  "description": "The most dangerous situations is to have an API that behaves synchronously under certain conditions and asynchronously under others",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Callbacks and Events",
+    "Sync x Async Pitfalls"
+  ],
+  "author": "Bruno Souza Rocha",
+  "license": "MIT"
+}
