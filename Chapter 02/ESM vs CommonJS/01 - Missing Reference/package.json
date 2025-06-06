@@ -1,0 +1,17 @@
+{
+  "name": "missing-reference",
+  "version": "1.0.0",
+  "description": "Some references that doesn't exists in the context of ESM",
+  "main": "main.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ESM",
+    "vs",
+    "CommonJS"
+  ],
+  "author": "Bruno Souza Rocha",
+  "license": "MIT"
+}
