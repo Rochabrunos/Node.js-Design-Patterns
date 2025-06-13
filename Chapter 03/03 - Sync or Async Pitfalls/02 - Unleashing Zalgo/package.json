@@ -1,0 +1,16 @@
+{
+  "name": "unleashing-zalgo",
+  "version": "1.0.0",
+  "description": "Here we force the application to behave incorrectly due to mixing async and sync calls",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Callbacks and events",
+    "Sync x Async Pitfalls"
+  ],
+  "author": "Bruno Souza Rocha",
+  "license": "MIT"
+}
