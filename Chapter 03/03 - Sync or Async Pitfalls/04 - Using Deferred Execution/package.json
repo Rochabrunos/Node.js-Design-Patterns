@@ -1,0 +1,17 @@
+{
+  "name": "using-sync-apis",
+  "version": "1.0.0",
+  "description": "We solve the Zalgo problem by using deferred execution",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Callbacks and events",
+    "Sync x Async Pitfalls",
+    "Deferred Execution"
+  ],
+  "author": "Bruno Souza Rocha",
+  "license": "MIT"
+}
