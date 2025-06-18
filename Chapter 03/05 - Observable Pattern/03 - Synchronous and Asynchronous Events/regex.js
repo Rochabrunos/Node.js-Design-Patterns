@@ -24,7 +24,10 @@ export class FindRegex extends EventEmitter {
                 this.emit('error', err)
                 return 
             }
-            this.emit('fileread', file)
+            // Now we garantee that the event is emitted asynchronously
+            // But only the 'fileread' event
+            process.nextTick(() => this.emit('fileread', file))
+        
             const match = content.match(this.regex)
             if (match) {
                 match.forEach(elem => this.emit('found', file, elem))

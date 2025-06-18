@@ -23,10 +23,12 @@ const findRegexInstance = new FindRegex(/Hello/)
 findRegexInstance
     .addFile('fileA.txt')
     .addFile('fileB.txt')
-    .on('fileread', file => console.log(`${file} was read`))
     .on('found', (file, match) => console.log(`Matched "${match}" in ${file}`))
     .on('error', err => console.error(`Error emitter ${err.message}`)) 
     .find()
+    // The 'fileread' event is emitted asynchronously thans to nextTick function
+    // This is an anti-pattern, where we mix both approaches
+    .on('fileread', file => console.log(`${file} was read`)) 
 
 
     
