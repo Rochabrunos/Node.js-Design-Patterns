@@ -1,0 +1,16 @@
+{
+  "name": "making-any-object-observable",
+  "version": "1.0.0",
+  "description": "Synchronous and Asynchronous Events",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Observable pattern",
+    "Sync and Async Events"
+  ],
+  "author": "Bruno Souza Rocha",
+  "license": "MIT"
+}
