@@ -1,0 +1,16 @@
+{
+  "name": "events-vs-callbacks",
+  "version": "1.0.0",
+  "description": "Comparing events with callbacks showing the difference of these two approaches",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Observable pattern",
+    "Callbacks and Events"
+  ],
+  "author": "Bruno Souza Rocha",
+  "license": "MIT"
+}
