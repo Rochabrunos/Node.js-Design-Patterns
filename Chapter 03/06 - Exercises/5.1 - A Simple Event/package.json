@@ -1,0 +1,16 @@
+{
+  "name": "making-any-object-observable",
+  "version": "1.0.0",
+  "description": "\"Making any object observable by extending EventEmitter class\"",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Observable pattern",
+    "EventEmitter"
+  ],
+  "author": "Bruno Souza Rocha",
+  "license": "MIT"
+}
